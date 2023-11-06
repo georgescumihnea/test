@@ -1,0 +1,18 @@
+/* Make the scrollbar green */
+/* The ::-webkit-scrollbar CSS pseudo-element is used for styling the scrollbar in Chromium-based browsers like Electron. */
+/* Adjust the width, height, and color as needed. */
+
+/* Track (background) of the scrollbar */
+::-webkit-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+}
+
+/* Handle (thumb) of the scrollbar */
+::-webkit-scrollbar-thumb {
+  background: green; /* Set the color of the scrollbar thumb to green */
+  border-radius: 5px; /* Add rounded corners to the scrollbar thumb */
+}
+.title-bar {
+  background: black;
+  -webkit-app-region: drag;
+}
